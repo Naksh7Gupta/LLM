@@ -1,0 +1,25 @@
+# Python & PyTorch artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Large Datasets and Tokens (>100MB, excluded from GitHub)
+data/tokens.pt
+data/corpus*.txt
+
+# Training Checkpoints
+checkpoints/
+*.pt.bak.*
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
